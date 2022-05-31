@@ -6,7 +6,7 @@ function execute(url) {
         doc.select("ul.list > li a").forEach(e => data.push({
             name: e.text(),
             url: url+'/'+e.attr("href"),
-            host: "https://gettruyen.com"
+            host: "docln.net"
         }));
 
         return Response.success(data);
