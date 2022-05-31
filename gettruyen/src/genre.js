@@ -1,5 +1,5 @@
 function execute(url) {
-    let response = fetch('https://gettruyen.com/search');
+    let response = fetch('https://docln.net/search');
     if (response.ok) {
         let doc = response.html();
         const data = [];
