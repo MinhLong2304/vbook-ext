@@ -1,6 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    let response = fetch('https://docln.net', {
+    let response = fetch('https://docln.net/search', {
         method: "GET",
         queries: {
             tags : url,
